@@ -5,7 +5,7 @@
 
 
 
-   -list all research papers that match the search in the the search input - if input is empty all papers are listed
+  -list all research papers that match the search in the the search input - if input is empty all papers are listed
   
   -bookmark papers by clicking on the star at the top right of the paper display
   
@@ -87,8 +87,8 @@ All functionality is built with one way data flow and composability in mind. Top
    Takes in url parameter id, makes an ajax call to the server to retrieve the full paper data with appropriat id.
    
 ### Bar Graph   
-
-
+   
+   Takes a set of key value pairs as a dat prop. Renders svg based on data. Call to retrieve graph data is made by PaperListView every time a new search is complete. Adjusts bar height for display purposes if there are less than 3 bars to display. 
    
    
    
