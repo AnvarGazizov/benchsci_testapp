@@ -65,8 +65,12 @@
 
 
 
+# Implementation
 
+All functionality is built with one way data flow and composability in mind. Top level components contain all of the state and provide callbacks to modify the satate to the child components, in both PaperListView and PaperFull. 
 
+## Search
+   
 
 Note: due to my current lack of knowledge about ES6 transpilers and limited time available i had to write the React code within an inline script in default.ctp. I understand this is bad practice and would have not done so if i had more time, however all of the components have been put in separate .js files for documentation and readability purposes.  
 
