@@ -1,0 +1,197 @@
+body{
+	background: #333;
+	color:white;
+}
+
+.navbar-default{
+	display:none;
+}
+
+
+.spinner{
+	height:45px;
+	margin-bottom: -15px;
+}
+
+
+.spinnerLarge{
+	height:150px;
+	margin-bottom: -60px;
+}
+
+
+.paperShorthand a{
+	color:white;
+}
+
+
+
+.bookMarkToggle{
+	color: rgba(49,93,123,1);
+	font-size: 25px;
+	top:15px;
+	right:20px;
+	position:absolute;
+	cursor:pointer;
+}
+
+
+.favouritesLabel{
+	position: absolute;
+    font-size: 17px;
+    font-weight: 300;
+    top: 15px;
+    /* height: 20px; */
+    padding: 5px;
+    line-height: initial;
+    background: #33b758;
+    border-top-left-radius: 5px;
+}
+
+.moreListItemsButtonContainer{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.paperList{
+	margin-top: 15px;
+}
+
+.bookmarkedPapersContainer .paperList{
+	margin-top: 0px;
+}
+
+.bookMarkToggleOn{
+	color:#84ec64;
+}	
+
+.paperShorthand{
+	background: yellow;
+    height: 180px;
+    background: #337ab7;
+    border: 1px solid white;
+    padding-top: 35px;
+    border-radius: 5px;
+    overflow: overlay;
+    color: white;
+}
+
+
+.searchForm{
+	margin-top:15px;
+}
+
+
+
+.navbar-postAdd{
+	color:black;
+}
+
+
+.bookmarkedPapersContainer{
+	font-weight: 100;
+	font-family: inherit;
+	color: #ffffff;
+	background: #ddd;
+	height: 180px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: overlay;
+}
+
+
+.bookmarkedPapersContainer.empty{
+	height: 180px;
+    text-align: center;
+    font-weight: 100;
+    font-family: inherit;
+    color: #ffffff;
+    background: #ddd;
+    font-size: 40px;
+    line-height: 175px;
+}	 
+
+
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+	padding-bottom:20px;
+}
+
+.videoContainer{
+	height:30%;
+	min-height: 500px;
+}
+
+
+.submitSearchButton{
+	width: 100%;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-
+}
+
+
+.searchFormInput{
+	border-top-left-radius: 4px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}	
+
+@media (min-width: 768px) {
+	.submitSearchButton{
+		width:inherit;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		border-top-right-radius: 4px;
+	}
+
+	.searchFormInput{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 4px;
+	}
+
+
+}	
+    
+
+.addButton{
+	color:black;
+}
+
+#content{
+	padding-top: 15px;
+}
+
+.contentList{
+
+}
+
+.moreListItemsButtonContainer .btn-lg{
+	border:0;
+}
+
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font-family:sans-serif;
+  text-anchor: end;
+}
+
+.chart{
+	width:100%;
+	margin-top:30px;
+	height:200;
+}
+
+
+.paperFull{
+	padding-top:50px;
+}
+
+.paperShorthand p{
+	font-weight: 100;
+}
