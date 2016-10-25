@@ -73,9 +73,14 @@ All functionality is built with one way data flow and composability in mind. Top
    Search is initiated by the SearchForm component which calls a PaperListView callback function to retrieve the results. Once the results are recieved the state is changed and PaperListView renders the new results. The query is limited to 20 results per call to avoid loading unnecessary data. The user is provided with a more button at the end of the current query display. The callback for this button queries the server with the same gene value as the initial search and also includes an offset in order to retrieve only the next 20 results and not any of the previous results already displayed. If there are no matching results or no more results to load the appropriate message is displayed.
    
 ### Favourites Rendering:
-   # Favourites Countainer
-   Initially onComponentDidMount in PaperListView makes an ajax call to retrieve all of the favourites. Favourites container is then initiaded with data returned. This component takes advantage of composabilty by using the same PaperList component as the search display.
-   # Favourites Toggle
+   
+   Favourites Countainer
+   
+   
+   Initiated onComponentDidMount in PaperListView makes an ajax call to retrieve all of the favourites. Favourites container is then initiaded with data returned. This component takes advantage of composabilty by using the same PaperList component as the search display.
+   
+   Favourites Toggle
+     
    Initiated by the BookmarkToggle this functionality either deletes or adds a favourite. The BookmarkToggle component takes in an id of the paper it is to modify, the callback to modify it and a boolean that indicates if the paper is in favourites. These values are assigned by the PaperList by comparing a papers id to a list of favourites id's that is passed to PaperList as a prop. 
    
 ### Full Paper View
