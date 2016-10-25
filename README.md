@@ -5,7 +5,7 @@
 
 
 
-  -list all research papers that match the search in the the search input - if input is empty all papers are listed
+  -list all research papers that match the value in the the search input - if input is empty all papers are listed
   
   -bookmark papers by clicking on the star at the top right of the paper display
   
