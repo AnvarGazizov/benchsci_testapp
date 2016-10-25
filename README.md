@@ -1,9 +1,11 @@
 # benchsci_testapp
 
 
-Functionality Overview:
+# Functionality Overview:
 
-  -list all research papers that match the search in the the search input - if input is empty all papers are listed
+
+
+   -list all research papers that match the search in the the search input - if input is empty all papers are listed
   
   -bookmark papers by clicking on the star at the top right of the paper display
   
@@ -14,10 +16,15 @@ Functionality Overview:
   -display a bar graph of research technique groups relevant to the search
   
   -display full paper information on a separate page - click paper tite link to do so
+
+
+
+
   
   
-  
-Components:
+# Components:
+
+
               
               PaperListView:
                    -PaperListView
@@ -55,6 +62,9 @@ Components:
                    -PaperFull
                    
                    
+
+
+
 
 
 
