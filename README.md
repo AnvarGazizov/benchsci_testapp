@@ -69,7 +69,10 @@
 
 All functionality is built with one way data flow and composability in mind. Top level components contain all of the state and provide callbacks to modify the satate to the child components, in both PaperListView and PaperFull. 
 
-## Search
+### Search:
+   Search is initiated by the SearchForm component which calls a PaperListView callback function to retrieve the results. Once the results are recieved the state is changed and PaperListView renders the new results. The query is limited to 20 results per call to avoid loading unnecessary data. The user is provided with a more button at the end of the current query display. The callback for this button queries the server with the same gene value as the initial search and also includes an offset in order to retrieve only the next 20 results and not any of the previous results already displayed. If there are no matching results or no more results to load the appropriate message is displayed.
+   
+   
    
 
 Note: due to my current lack of knowledge about ES6 transpilers and limited time available i had to write the React code within an inline script in default.ctp. I understand this is bad practice and would have not done so if i had more time, however all of the components have been put in separate .js files for documentation and readability purposes.  
