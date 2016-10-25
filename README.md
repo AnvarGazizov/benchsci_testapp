@@ -4,10 +4,15 @@
 Functionality Overview:
 
   -list all research papers that match the search in the the search input - if input is empty all papers are listed
+  
   -bookmark papers by clicking on the star at the top right of the paper display
+  
   -view bookmarked papers at the top of the screen, note:container is scrollable when there are more than three bookmarks scroll down on the container to view them
+  
   -display the number of bookmarked papers the user has
+  
   -display a bar graph of research technique groups relevant to the search
+  
   -display full paper information on a separate page - click paper tite link to do so
   
   
