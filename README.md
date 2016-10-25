@@ -26,40 +26,40 @@
 
 
               
-              PaperListView:
-                   -PaperListView
-                      -BookmarkedPapersContainer 
-                          -PaperList 
-                      -SearchForm
-                      -BarGraph
-                      -PaperList 
-                      -LoadMoreListItemsButton 
+      PaperListView:
+          -PaperListView
+             -BookmarkedPapersContainer 
+                 -PaperList 
+             -SearchForm
+             -BarGraph
+             -PaperList 
+             -LoadMoreListItemsButton 
 
-              PaperList:
-                   -PaperList
-                      -PaperShorthand
-              
-              PaperShorthand:
-                   -PaperShorthand
-                      -BookmarkToggle
+      PaperList:
+          -PaperList
+             -PaperShorthand
 
-              LoadMoreListItemsButton:
-                   -LoadMoreListItemsButton
-                   
-              BookmarkToggle:
-                   -BookmarkToggle
-                   
-              PaperFull:
-                   -PaperFull
-              
-              BarGraph:
-                   -BarGraph
-                   
-              SearchForm:
-                   -Search Form
-                   
-              PaperFull
-                   -PaperFull
+      PaperShorthand:
+          -PaperShorthand
+             -BookmarkToggle
+
+      LoadMoreListItemsButton:
+          -LoadMoreListItemsButton
+
+      BookmarkToggle:
+          -BookmarkToggle
+
+      PaperFull:
+          -PaperFull
+
+      BarGraph:
+          -BarGraph
+
+      SearchForm:
+          -Search Form
+
+      PaperFull
+          -PaperFull
                    
                    
 
