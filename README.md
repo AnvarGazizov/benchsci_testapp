@@ -5,4 +5,5 @@
 
 
 Path to all js files:benchsci_testapp/app/webroot/js/
-Pathe to the tml being used:
+
+Path to the html file being used:benchsci_testapp/app/View/Layouts/deafult.ctp
