@@ -152,7 +152,7 @@ var PaperListView = React.createClass({
         var bookMarkContainerClassString = '';
         var moreButtonVisible = true; 
         var isSearchEmptyString = ''
-
+        var loaderContainerClassHelper = 'hidden';
         
         if(this.state.bookMarkedPapers.length == 0){
           bookMarkContainerText = 'No Favourites Selected';
@@ -164,6 +164,10 @@ var PaperListView = React.createClass({
 
         if(this.state.searchListPapers.length == 0)
           moreButtonVisible = false;
+
+        if(this.state.listSearchLoading && this.state.newSearch){
+          loaderContainerClassHelper = '';
+        }
 
         return(
           <div className="paperListView text-center">
@@ -178,6 +182,11 @@ var PaperListView = React.createClass({
             <SearchForm updateSearchItem={this.updateSearchItem} newSearch={this.state.newSearch} handleSearchSubmit={this.getPapers}/>
             
             {isSearchEmptyString}
+            <div className = {loaderContainerClassHelper}>
+              <img src="img/spinner.gif" className="spinner"/>
+              <br/>
+              Loading Papers
+            </div>
             
             <BarGraph data={this.state.graphData} />
             
